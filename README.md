@@ -1,6 +1,6 @@
 #
 
-1:16:11
+[참고영상](https://youtu.be/KBpoBc98BwM?si=JYyjQZuUQLxoLbh4)
 
 ## 설치
 
