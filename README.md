@@ -1,4 +1,5 @@
 # Fitness
+<img width="100%" src="https://github.com/yunyoungsik/fitness/blob/main/src/assets/tumbnail.png?raw=true" />
 Fitness Club은 다양한 운동 정보를 탐색할 수 있는 기능을 제공합니다.<br />
 사용자는 원하는 운동을 검색하거나, 특정 부위 또는 운동 기구에 따라 쉽게 필터링하여 필요한 정보를 얻을 수 있습니다.<br />
 [참고영상](https://youtu.be/KBpoBc98BwM?si=JYyjQZuUQLxoLbh4)
