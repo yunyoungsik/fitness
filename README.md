@@ -21,8 +21,18 @@
 Home: 홈페이지를 구성하는 메인 페이지 컴포넌트입니다.<br />
 HeroBanner, SearchExercises, Exercises 컴포넌트를 통해 페이지를 구성하고, 상태를 관리합니다.<br />
 <br />
-ExerciseDetail: 특정 운동에 대한 상세 정보 페이지를 나타내는 컴포넌트입니다.<br />
-Detail 컴포넌트로 운동의 세부 정보를 표시하고, ExercisesVideos와 SimilarExercises 컴포넌트로 해당 운동에 대한 비디오 및 유사한 운동을 표시합니다.<br />
+ExerciseDetail: 특정 운동에 대한 상세 정보를 표시하는 페이지 컴포넌트<br />
+URL Parameter에서 운동 ID 가져오기: useParams 훅을 사용하여 URL에서 운동 ID를 가져옵니다.<br />
+데이터 Fetch 및 상태 관리: useEffect 훅을 사용하여 페이지가 로드될 때 필요한 데이터를 가져와 상태에 저장합니다.<br />
+세부 정보 표시: Detail 컴포넌트를 통해 운동의 세부 정보를 표시합니다.<br />
+운동 비디오 표시: ExercisesVideos 컴포넌트를 통해 YouTube에서 검색된 운동 관련 비디오를 표시합니다.<br />
+유사한 운동 표시: SimilarExercises 컴포넌트를 통해 타겟 근육 및 장비에 따라 유사한 운동을 표시합니다.<br />
+스크롤 최상단 이동: 페이지 로드 시에 스크롤을 페이지 상단으로 이동시킵니다.<br />
+<br />
+exerciseOptions, youtubeOptions, fetchData:<br />
+exerciseOptions: ExerciseDB API 및 빠른 API 키를 사용하여 운동 데이터를 가져오기 위한 옵션입니다.<br />
+youtubeOptions: YouTube 검색 및 다운로드 API 키를 사용하여 YouTube에서 운동 관련 비디오를 검색하기 위한 옵션입니다.<br />
+fetchData 함수: 주어진 URL과 옵션을 사용하여 데이터를 비동기적으로 가져오는 함수입니다. fetch를 사용하여 데이터를 가져온 후 JSON으로 변환하여 반환합니다.<br />
 <br />
 Navbar: 네비게이션 바 컴포넌트입니다.<br />
 Link를 사용하여 홈페이지로 이동할 수 있는 로고와 네비게이션 링크를 제공합니다.<br />
